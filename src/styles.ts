@@ -2,14 +2,46 @@ import styled, { createGlobalStyle } from 'styled-components';
 import iconWarning from './img/icon-warning.png';
 import iconQuestion from './img/icon-question.png';
 import iconCritical from './img/icon-critical.png';
+import openSans200 from './fonts/opensans-200.ttf';
+import openSans300 from './fonts/opensans-300.ttf';
+import openSans400 from './fonts/opensans-400.ttf';
+import openSans600 from './fonts/opensans-600.ttf';
 
 export default createGlobalStyle `
+	@font-face {
+		font-family: 'opensans light';
+		font-style: normal;
+		font-weight: 200;
+		src: url(${openSans200});
+	}
+
+	@font-face {
+		font-family: 'openSans regular';
+		font-style: normal;
+		font-weight: 300;
+		src: url(${openSans300});
+	}
+
+	@font-face {
+		font-family: 'opensans semibold';
+		font-style: normal;
+		font-weight: 400;
+		src: url(${openSans400});
+	}
+
+	@font-face {
+		font-family: 'opensans bold';
+		font-style: normal;
+		font-weight: 600;
+		src: url(${openSans600});
+	}
+
 	* {
 		margin: 0;
 		padding: 0;
 		outline: 0;
 		box-sizing: border;
-		font-family: 'Roboto', sans-serif;
+		font-family: 'opensans regular', sans-serif;
 		color: #fff;
 	}
 
@@ -86,12 +118,14 @@ export const Dialog = styled.div`
 	h3 {
 		position: relative;
 		margin: 25px 30px 0 100px;
+		font-family: 'opensans semibold';
 		font-size: 16px;
 	}
 
 	p {
 		position: relative;
 		margin: 12px 30px 0 100px;
+		font-family: 'opensans regular';
 		font-size: 12px;
 		color: #929292;
 	}
@@ -133,7 +167,7 @@ export const Dialog = styled.div`
 			top: 60px;
 			left: 30px;
 			width: 52px;
-			height: 48px;
+			height: 52px;
 			background: url(${iconWarning}) no-repeat center;
 			background-size: 52px 52px;
 		}
@@ -148,7 +182,7 @@ export const Dialog = styled.div`
 			top: 60px;
 			left: 30px;
 			width: 52px;
-			height: 48px;
+			height: 52px;
 			background: url(${iconQuestion}) no-repeat center;
 			background-size: 52px 52px;
 		}

@@ -1735,9 +1735,9 @@
 {
 "API": "WARNING",
 "Title": "Error",
-"Description": "New database has been created",
-"Buttons": "but initialization failed",
-"MoreButtons": "please check log file for more details."
+"Description": "New database has been created but initialization failed please check log file for more details.",
+"Buttons": "Ok",
+"MoreButtons": ""
 },
 {
 "API": "INFORMATION",
@@ -2147,8 +2147,8 @@
 {
 "API": "QUESTION",
 "Title": "Are you sure you would like to add this job to the render queue with media offline clips or frames?",
-"Description": "One or more clips appear to have missing or offline source frames. If you continue",
-"Buttons": "these frames will be rendered with a media offline graphic.",
+"Description": "One or more clips appear to have missing or offline source frames. If you continue these frames will be rendered with a media offline graphic.",
+"Buttons": "Ok",
 "MoreButtons": "Cancel",
 "field6": "Add",
 "field7": "QString()",
@@ -2222,7 +2222,7 @@
 "Title": "You have selected an invalid number of audio tracks for %1 %2 clip. an/ a",
 "Description": "Continuing with the current track selection could result in problems when playing back these clips on some devices and projectors.",
 "Buttons": "Cancel",
-"MoreButtons": "BUTTON_OK"
+"MoreButtons": "Ok"
 },
 {
 "API": "QUESTION",
@@ -2487,8 +2487,8 @@
 {
 "API": "WARNING",
 "Title": "Unable to find media",
-"Description": "DaVinci Resolve cannot find this media: <br /><br /><br /> Please check the path",
-"Buttons": "or change parent folder if it has moved.",
+"Description": "DaVinci Resolve cannot find this media: Please check the path or change parent folder if it has moved.",
+"Buttons": "Ok",
 "MoreButtons": ""
 },
 {
@@ -2551,7 +2551,7 @@
 "API": "QUESTION",
 "Title": "Would you like to rescan the path and add new files to the Sound Library?",
 "Description": "The path %1 already exists in the Database %2.",
-"Buttons": "curSoundLibraryDb)",
+"Buttons": "Yes",
 "MoreButtons": "No",
 "field6": "Yes",
 "field7": "QString::null",
@@ -2584,8 +2584,8 @@
 "API": "QUESTION",
 "Title": "Delete Preset",
 "Description": "Delete preset %1?",
-"Buttons": "BUTTON_CANCEL",
-"MoreButtons": "BUTTON_OK"
+"Buttons": "Cancel",
+"MoreButtons": "Ok"
 },
 {
 "API": "WARNING",
@@ -2660,8 +2660,8 @@
 {
 "API": "WARNING",
 "Title": "Error",
-"Description": "KDM generation failed",
-"Buttons": "failed to locate digest for this package.",
+"Description": "KDM generation failed to locate digest for this package.",
+"Buttons": "",
 "MoreButtons": ""
 },
 {
@@ -2975,7 +2975,7 @@
 {
 "API": "INFORMATION",
 "Title": "Error",
-"Description": "No scenecut information present.\nDon't know where to split.",
+"Description": "No scenecut information present. Don't know where to split.",
 "Buttons": "",
 "MoreButtons": ""
 },
@@ -2983,21 +2983,21 @@
 "API": "INFORMATION",
 "Title": "UiGlobal::GetProductName()",
 "Description": "No split could be detected.",
-"Buttons": "",
+"Buttons": "Ok",
 "MoreButtons": ""
 },
 {
 "API": "INFORMATION",
 "Title": "UiGlobal::GetProductName()",
 "Description": "No scenecut information present.",
-"Buttons": "",
+"Buttons": "Ok",
 "MoreButtons": ""
 },
 {
 "API": "INFORMATION",
 "Title": "UiGlobal::GetProductName()",
 "Description": "No scenecut information present.",
-"Buttons": "",
+"Buttons": "Ok",
 "MoreButtons": ""
 },
 {
@@ -3201,8 +3201,8 @@
 "API": "QUESTION",
 "Title": "Confirm Exit",
 "Description": "Exit now?",
-"Buttons": "BUTTON_YES",
-"MoreButtons": "BUTTON_NO"
+"Buttons": "Yes",
+"MoreButtons": "No"
 },
 {
 "API": "INFORMATION",
@@ -3235,8 +3235,8 @@
 {
 "API": "URGENT",
 "Title": "%s||%s",
-"Description": "Dolby Vision%1",
-"Buttons": "IOCommon::ErrToStr(err)",
+"Description": "Dolby Vision%1 IOCommon::ErrToStr(err)",
+"Buttons": "Ok",
 "MoreButtons": ""
 },
 {
