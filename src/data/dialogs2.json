@@ -1160,8 +1160,8 @@
 {
 "API": "INFORMATION",
 "Title": "Reconform timeline",
-"Description": "There are no offline timeline clips to conform",
-"Buttons": "and there are no timeline clips with \"Conform Lock Enabled\" turned off.",
+"Description": "There are no offline timeline clips to conform and there are no timeline clips with \"Conform Lock Enabled\" turned off.",
+"Buttons": "Ok",
 "MoreButtons": ""
 },
 {
@@ -1174,8 +1174,8 @@
 {
 "API": "INFORMATION",
 "Title": "Reconform timeline",
-"Description": "There are no offline timeline clips to conform",
-"Buttons": "and there are no timeline clips with \"Conform Lock Enabled\" turned off.",
+"Description": "There are no offline timeline clips to conform and there are no timeline clips with \"Conform Lock Enabled\" turned off.",
+"Buttons": "Ok",
 "MoreButtons": ""
 },
 {
@@ -2058,7 +2058,7 @@
 "Title": "Invalid Frame.io location selected.",
 "Description": "Please select project folder or user created folder to upload contents.",
 "Buttons": "Ok",
-"MoreButtons": "BUTTON_OK"
+"MoreButtons": ""
 },
 {
 "API": "WARNING",
@@ -2536,8 +2536,8 @@
 {
 "API": "INFORMATION",
 "Title": "Split and Add",
-"Description": "%1 clips potentially added (Total Clips Listed = %2",
-"Buttons": "Total EDL events detected = %3)",
+"Description": "%1 clips potentially added (Total Clips Listed = %2 Total EDL events detected = %3)",
+"Buttons": "Ok",
 "MoreButtons": ""
 },
 {
@@ -2562,9 +2562,9 @@
 {
 "API": "INFORMATION",
 "Title": "Sound Library Scan Successful",
-"Description": "Added %1 clips out of %2 clips from %3",
-"Buttons": "QString::number(info.m_TotalNumFilesScanned)",
-"MoreButtons": "path)"
+"Description": "Added %1 clips out of %2 clips from %3 QString::number(info.m_TotalNumFilesScanned)",
+"Buttons": "Ok",
+"MoreButtons": ""
 },
 {
 "API": "WARNING",
@@ -2841,7 +2841,7 @@
 "API": "INFORMATION",
 "Title": "Error!",
 "Description": "No filename given!",
-"Buttons": "BUTTON_CANCEL",
+"Buttons": "Cancel",
 "MoreButtons": ""
 },
 {
@@ -3209,14 +3209,14 @@
 "Title": "DaVinci Resolve Project Server could not find a PostgreSQL installation on this machine.",
 "Description": "secondaryText",
 "Buttons": "Quit",
-"MoreButtons": "BUTTON_OK"
+"MoreButtons": "Ok"
 },
 {
 "API": "INFORMATION",
 "Title": "DaVinci Resolve Project Server connection error.",
 "Description": "The PostgreSQL server is either not running or the password is incorrect.",
 "Buttons": "Quit",
-"MoreButtons": "BUTTON_OK"
+"MoreButtons": "Ok"
 },
 {
 "API": "CRITICAL",
