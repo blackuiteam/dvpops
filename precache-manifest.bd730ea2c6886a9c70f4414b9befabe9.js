@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50cd2b161afa7153f14365af42f40eeb",
+    "revision": "4da718fb967c46e86517648e18dafc12",
     "url": "/resolve-dialogs/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resolve-dialogs/static/js/2.2ab60c58.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "963b9c292acf6b71783e",
-    "url": "/resolve-dialogs/static/js/main.3ce01675.chunk.js"
+    "revision": "ecd044cc5b897d269ec3",
+    "url": "/resolve-dialogs/static/js/main.fd218f2b.chunk.js"
   },
   {
     "revision": "1b798894f5303a7a9d5f",
