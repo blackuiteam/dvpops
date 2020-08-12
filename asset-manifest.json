@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/resolve-dialogs/static/js/main.bc0d8732.chunk.js",
+    "main.js.map": "/resolve-dialogs/static/js/main.bc0d8732.chunk.js.map",
+    "runtime-main.js": "/resolve-dialogs/static/js/runtime-main.273747ec.js",
+    "runtime-main.js.map": "/resolve-dialogs/static/js/runtime-main.273747ec.js.map",
+    "static/js/2.5fdf9597.chunk.js": "/resolve-dialogs/static/js/2.5fdf9597.chunk.js",
+    "static/js/2.5fdf9597.chunk.js.map": "/resolve-dialogs/static/js/2.5fdf9597.chunk.js.map",
+    "index.html": "/resolve-dialogs/index.html",
+    "precache-manifest.3137023d240128a268f4cb6e0250d76a.js": "/resolve-dialogs/precache-manifest.3137023d240128a268f4cb6e0250d76a.js",
+    "service-worker.js": "/resolve-dialogs/service-worker.js",
+    "static/js/2.5fdf9597.chunk.js.LICENSE.txt": "/resolve-dialogs/static/js/2.5fdf9597.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.273747ec.js",
+    "static/js/2.5fdf9597.chunk.js",
+    "static/js/main.bc0d8732.chunk.js"
+  ]
+}
