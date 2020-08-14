@@ -49,13 +49,21 @@ export default createGlobalStyle `
 		background: #222;
 		-webkit-font-smoothing: antialiased;
 	}
+
+	#root {
+		display: table;
+		width: auto;
+		height: 100vh;
+		margin: 0 auto;
+	}
+
 `
 
 export const Header = styled.div`
 	display: block;
 	max-width: 600px;
 	height: 60px;
-	margin: auto;
+	margin: 20px auto;
 	background-color: #000;
 
 	input {
@@ -80,26 +88,42 @@ export const Header = styled.div`
 
 export const Wrapper = styled.div `
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	position: relative;
+	float: left;
+	grid-template-columns: repeat(1, 1fr);
 	grid-row-gap: 2rem;
 	grid-column-gap: 1rem;
-	place-items: center;
-	max-width: 1690px;
-	margin: 10px auto;
+	width: 580px;
 	padding: 1rem 0;
+
+	&:nth-child(2) {
+		border-right: 1px solid #3E4349;
+	}
+
+	.column-title {
+		display: grid;
+		align-items: center;
+		justify-content: center;
+		width: 530px;
+		height: 60px;
+		font-family: 'opensans bold';
+		font-size: 20px;
+		margin: auto;
+		border: 1px solid #3E4349;
+	}
 `
 
 export const MiniWrapper = styled.div `
 	display: block;
 	width: 530px;
-	height: auto;
+	margin: auto;
 `
 
 export const Dialog = styled.div`
 	display: block;
 	float: left;
 	position: relative;
-	margin: 0;
+	margin: auto;
 	background-color: #28282E;
 	border: 1px solid #000;
 
@@ -109,7 +133,7 @@ export const Dialog = styled.div`
 		justify-content: flex-start;
 		width: cal(100% - 10px);
 		height: 30px;
-		background-color: #37393E;
+		background-color: #212126;
 		border-bottom: 1px solid #000;
 		font-size: 11px;
 		padding: 0 0 0 10px;
@@ -124,7 +148,7 @@ export const Dialog = styled.div`
 
 	p {
 		position: relative;
-		margin: 12px 30px 0 100px;
+		margin: 12px 30px 30px 100px;
 		font-family: 'opensans regular';
 		font-size: 12px;
 		color: #929292;
@@ -133,18 +157,16 @@ export const Dialog = styled.div`
 	.row-buttons {
 		display: inline-flex;
 		flex-direction: row-reverse;
-		position: absolute;
-		bottom: 20px;
-		right: 20px;
-		width: calc(100% - 40px);
-		height: auto;
+		width: calc(100% - 20px);
+		height: 22px;
+		margin: 0 0 20px 0;
 
 		.button {
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			width: 118px;
-			height: 26px;
+			height: 22px;
 			font-size: 12px;
 			color: #929292;
 			border-radius: 14px;
@@ -158,9 +180,8 @@ export const Dialog = styled.div`
 	}
 
 	&.WARNING {
-		display: block;
 		width: 530px;
-		height: 220px;
+		height: auto;
 
 		.icon {
 			position: absolute;
@@ -175,7 +196,7 @@ export const Dialog = styled.div`
 
 	&.QUESTION {
 		width: 530px;
-		height: 248px;
+		height: auto;
 
 		.icon {
 			position: absolute;
@@ -190,7 +211,7 @@ export const Dialog = styled.div`
 
 	&.INFORMATION {
 		width: 460px;
-		height: 208px;
+		height: auto;
 
 		h3 {
 			margin: 30px 30px 0 30px;
@@ -203,21 +224,20 @@ export const Dialog = styled.div`
 
 	&.LIST {
 		width: 460px;
-		height: 308px;
+		height: auto;
+		/* margin: 0 0 0 30px; */
 
 		h3 {
 			margin: 30px 30px 0 30px;
 		}
 
 		p {
-			margin: 12px 30px 0 30px;
+			margin: 12px 30px 30px 30px;
 		}
 
 		.description-box {
 			display: table;
-			position: absolute;
-			bottom: 76px;
-			left: 30px;
+			margin: 0 0 20px 30px;
 			width: 400px;
 			height: 86px;
 			background-color: #1F1F1F;
@@ -227,7 +247,7 @@ export const Dialog = styled.div`
 
 	&.CRITICAL {
 		width: 530px;
-		height: 240px;
+		height: auto;
 
 		.icon {
 			position: absolute;

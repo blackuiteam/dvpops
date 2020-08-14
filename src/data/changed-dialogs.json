@@ -2882,7 +2882,7 @@
 {
 "API": "LIST",
 "Title": "No match was found when attempting to align these clips",
-"Description": "",
+"Description": "Message",
 "Buttons": "QString()",
 "MoreButtons": "Ok",
 "field6": "BUTTON_NONE",

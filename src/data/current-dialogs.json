@@ -1,0 +1,3501 @@
+[
+{
+"API": "INFORMATION",
+"Title": "Import Composition",
+"Description": "Not a valid clip for importing composition.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Import Composition",
+"Description": "Unable to open file '%1' for importing composition.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Export Composition",
+"Description": "Not a valid clip for exporting composition.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Export Composition",
+"Description": "Unable to open file '%1' for exporting composition.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Preset name cannot be empty, do you want to use its original name?",
+"Description": "Please give a valid name.",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "QUESTION",
+"Title": "Do you really want to delete preset\"%1\"?",
+"Description": "The deleted preset can not be recovered. ",
+"Buttons": "Cancel",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Metadata Preset",
+"Description": "Preset name can not be empty please use another name.",
+"Buttons": "Ok",
+"MoreButtons": "",
+"field6": ""
+},
+{
+"API": "WARNING",
+"Title": "Metadata Preset",
+"Description": "Failed to create Preset \"%1\".",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Invalid location",
+"Description": "The LUT location cannot be empty.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "LUT location exists",
+"Description": "The LUT location '%1' already exists in the list.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Invalid LUT location",
+"Description": "A higher level directory '%1' already exists in the list.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Invalid LUT location",
+"Description": "Remove lower level directory '%1' from the list before adding '%2'.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to reset your System Preferences to defaults?",
+"Description": "You cannot undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Reset",
+"field6": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "New User Preferences Preset name cannot be empty.",
+"Description": "QString()",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Import preset failed",
+"Description": "The selected file is not a valid User Preferences preset file or cannot be read.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Import preset failed",
+"Description": "Could not save User Preferences presets",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to reset your User Preferences to defaults?",
+"Description": "You cannot undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Reset",
+"field6": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to update the selected User Preferences preset with your current settings?",
+"Description": "You cannot undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Update",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "The export file name already exists at this location. Do you want to overwrite it?",
+"Description": "QString()",
+"Buttons": "No",
+"MoreButtons": "Yes",
+"field6": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "Export User Preferences preset failed.",
+"Description": "QString()",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to delete the selected User Preferences preset?",
+"Description": "You cannot undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Delete",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Please add at least one media storage volume.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Please set GPU selection mode to 'Auto' or select at least 1 GPU.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "You can only use one processing GPU in DaVinci Resolve.",
+"Description": "Please select a single processing GPU in order to continue.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Please enter a valid IP address for DaVinci Resolve Mini Panel.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Unable to save preferences.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Unable to save preferences.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Unable to save preferences.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Your preferences have been updated.",
+"Description": "These changes will take effect the next time Resolve is started.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Invalid mount point",
+"Description": "The mount point cannot be empty.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Invalid mount point",
+"Description": "The mount point '/Volumes' is reserved.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "The mount point '/Volumes' is reserved. In order to monitor media storage devices attached to the computer, please add the main drive (e.g. 'Macintosh HD') to Media Storage Locations above.",
+"Description": "Would you like to do this now?",
+"Buttons": "No",
+"MoreButtons": "Add Location",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "The mount point '/Volumes' is reserved. In order to monitor media storage devices attached to the computer, please enable the automatic display of storage locations.",
+"Description": "Would you like to enable this now?",
+"Buttons": "No",
+"MoreButtons": "Enable",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "WARNING",
+"Title": "Mount point exists",
+"Description": "The mount point '%1' already exists in the list.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Invalid mount point",
+"Description": "A higher level directory '%1' already exists in the list.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Invalid mount point",
+"Description": "Remove lower level directory '%1' from the list before adding '%2'.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Unable to add new file system mount",
+"Description": "A security scoped bookmark cannot be created for the new file system mount.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Selection Error",
+"Description": "Please select a media storage volume to remove.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Selection Error",
+"Description": "Please select a folder to remove.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Error configuring panel driver for panel.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "DeckLink card not found",
+"Description": "SDI monitoring has been disabled since a DeckLink card was not detected.\nTo re-enable SDI monitoring, please update your preferences when a DeckLink card has been plugged in.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Setup Preferences",
+"Description": "Please setup the system using the 'Preferences' dialog before proceeding.\n \nThe 'Preferences' dialog can be launched from the 'DaVinci Resolve' section of the menu bar.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "In order to monitor media storage devices attached to the computer, please add the main drive (e.g. 'Macintosh HD') to Media Storage Locations above.",
+"Description": "Would you like to do this now?",
+"Buttons": "No",
+"MoreButtons": "Add Location",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "You have selected a folder other than the main drive. Please add the main drive (e.g. 'Macintosh HD') to Media Storage Locations above.",
+"Description": "Would you like to do this now?",
+"Buttons": "No",
+"MoreButtons": "Add Location",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to apply Black Sun Highlight Correction to the selected clip?",
+"Description": "This action will apply the correction to all instances of this clip in the current project",
+"Buttons": "Cancel",
+"MoreButtons": "Apply"
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Album not available.",
+"Buttons": "Close",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Album is locked by another user.",
+"Buttons": "Close",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Unknown error locking album.",
+"Buttons": "Close",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Failed to copy still: %1",
+"Buttons": "Close",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you want to permanently erase the selected PowerGrade?",
+"Description": "You can't undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Delete",
+"field6": "QString::null",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_OK",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "tr(action.ErrMsg().toStdString().c_str())",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Failed to change still label: %1",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Failed to import %1: %2",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Failed to get authorization info",
+"Description": "Unable to get authorization info for your login. Please check your internet connection and try again.",
+"Buttons": "Close",
+"MoreButtons": "Ok"
+},
+{
+"API": "INFORMATION",
+"Title": "Failed to generate authorization token",
+"Description": "Unable to generate token for your login. Please check your internet connection and try again.",
+"Buttons": "Close",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Switching to Timeline mode is disabled.",
+"Description": "Please disable \"timeline filter\" and \"show clip with handles\" to be able to switch to Timeline mode.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to delete this Frame.io comment?",
+"Description": "The comment will be deleted both in the project as well as on the clip on Frame.io. This action cannot be undone.",
+"Buttons": "Cancel",
+"MoreButtons": "Delete",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "Collaboration cannot be disabled on the current project.",
+"Description": "One or more users are still collaborating on the project. Please ensure that there are no active users on the project prior to disabling collaboration.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "firstMessage",
+"Description": "Dynamic Project Switching is not supported along with Collaboration. All currently loaded projects will be closed prior to proceeding.",
+"Buttons": "Cancel",
+"MoreButtons": "Disable",
+"field6": "QString()",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_OK",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "INFORMATION",
+"Title": "Collaboration cannot be enabled on the current project.",
+"Description": "Collaboration is not available on projects with �Automatically match master timeline with media pool� enabled.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Collaboration cannot be enabled on the current project.",
+"Description": "Collaboration is not available on projects with �Use Timelines Bin� enabled.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "This project has been modified since it was opened.",
+"Description": "Would you like to save changes and reload in collaboration mode?",
+"Buttons": "Cancel",
+"MoreButtons": "Save",
+"field6": "QString()",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_OK",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "WARNING",
+"Title": "Digest/KDM can not be imported",
+"Description": "easyDCP License doesn't include decryption support.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Timeline can not be consolidated",
+"Description": "No current Timeline selected.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Timeline can not be consolidated",
+"Description": "Current timeline must have DCP clips only.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Timeline can not be consolidated",
+"Description": "Current timeline must have valid DCP clips only.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Timeline can not be consolidated",
+"Description": "Current timeline must have more than one DCP clip.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "The license file %1 was imported successfully.",
+"Description": "The Dolby Vision license is now active and expires on %1.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "The license file %1 could not be imported.",
+"Description": "Please select a valid license file in order to continue.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "The configuration file %1 was imported successfully.",
+"Description": "QString()",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "The configuration file %1 could not be imported.",
+"Description": "Please select a valid configuration file in order to continue.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Import preset failed",
+"Description": "The selected file is not a valid layout preset file or cannot be read.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "All render cache for the current project will be deleted.",
+"Description": "Do you want to delete the cache?",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "QUESTION",
+"Title": "Unused render cache for the current project will be deleted.",
+"Description": "Do you want to delete the cache?",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "QUESTION",
+"Title": "Render cache for the selected clips will be deleted.",
+"Description": "Do you want to delete the cache?",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to update the selected Layout preset with your current settings?",
+"Description": "You cannot undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Update",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "WARNING",
+"Title": "Export preset failed",
+"Description": "Could not create preset file at %1",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to delete the selected Layout preset?",
+"Description": "You cannot undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Delete",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "WARNING",
+"Title": "Failed to change start timecode.",
+"Description": "Resolve could not convert '%1' to a valid timecode",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Video clips for some EDL events already exist.",
+"Description": "Would you like to replace the clips? The original files on disk will be deleted.",
+"Buttons": "Don't Replace",
+"MoreButtons": "Replace",
+"field6": "QString::null",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "Video clip already exists",
+"Description": "Would you like to replace the clip? The original file on disk will be deleted.",
+"Buttons": "Don't Replace",
+"MoreButtons": "Replace",
+"field6": "QString::null",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "Video clip already exists.",
+"Description": "Would you like to replace the clip? The original file on disk will be deleted.",
+"Buttons": "Don't Replace",
+"MoreButtons": "Replace",
+"field6": "QString::null",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "WARNING",
+"Title": "Unable to start recording.",
+"Description": "Please make sure film has been properly loaded.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Unable to start recording.",
+"Description": "Please make sure scanner has been stopped.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Clip Capture Failed",
+"Description": "IOCommon::ErrToStr(err)",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Drop Frame, do you want to resume capture?",
+"Description": "This will resume the capture process.",
+"Buttons": "Yes",
+"MoreButtons": "No",
+"field6": "QString::null",
+"field7": "BUTTON_OK",
+"field8": "BUTTON_CANCEL",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you want to move the selected PowerGrades?",
+"Description": "Moving them to a still album will make them available only in that specific project. This action cannot be undone.",
+"Buttons": "Cancel",
+"MoreButtons": "Move",
+"field6": "QString::null",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_OK",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "Invalid Frame.io location selected.",
+"Description": "Please select project folder or user created folder to upload contents.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Please enter a password in order to export",
+"Description": "You have set the visibility of the Vimeo clip to \"People with the password\". Please enter a password or choose another visibility mode to continue.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Video clips already exist.",
+"Description": "Would you like to replace the clips? The original files on disk will be deleted.",
+"Buttons": "Don't Replace",
+"MoreButtons": "Replace",
+"field6": "QString::null",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "This action will delete the project(s) permanently. The action cannot be undone.\n Do you want to proceed with the deletion?",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "QUESTION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "This action will delete the project(s) permanently. The action cannot be undone.\n Do you want to proceed with the deletion?",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "INFORMATION",
+"Title": "LUT name is empty.",
+"Description": "Please enter a valid LUT name.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Timeline resolution needs to be set to 1920x1080.",
+"Description": "Please modify the project timeline resolution and try again.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "No active clip found on the timeline.",
+"Description": "Please create a timeline with the Trim LUT DPX image.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "The LUT file already exists.",
+"Description": "Do you want to overwrite it?",
+"Buttons": "No",
+"MoreButtons": "Yes",
+"field6": "BUTTON_NONE)"
+},
+{
+"API": "QUESTION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Apply Current Configuration to System?",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "QUESTION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Do you want to save this Preset?",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "INFORMATION",
+"Title": "Handle Mixed FPS Material",
+"Description": "Handle mixed FPS material setting cannot be changed as there are conformed timelines that will be affected.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you want to change the project frame rate?",
+"Description": "This action cannot be undone.",
+"Buttons": "Cancel",
+"MoreButtons": "Change",
+"field6": "QString::null",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "CRITICAL",
+"Title": "Invalid Input",
+"Description": "Reel number extraction failed!",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Would you like to erase all existing metadata and change the version?",
+"Description": "Changing the Dolby Vision content mapping version will invalidate all Dolby Vision metadata in the project. This action cannot be undone.",
+"Buttons": "Cancel",
+"MoreButtons": "Change",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE))) { m_DolbyVisionVersion = static_cast<VaCommon::DolbyVisionVersion>(GetDolbyVisionVersion()"
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Failed to create Preset: <%1>.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "UiGlobal::GetProductName()",
+"Description": "No Database connected!",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Failed to delete the Preset.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "UiGlobal::GetProductName()",
+"Description": "No Database connected!",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Failed to save the Preset.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Do you want to replace current project's config with this selected Preset?",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "QUESTION",
+"Title": "Project \"%1\" has not been saved.",
+"Description": "Would you like to save or discard changes to this project before switching to remote rendering?",
+"Buttons": "Cancel",
+"MoreButtons": "Don't Save",
+"field6": "Save",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_NO",
+"field9": "BUTTON_YES"
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Failed to acquire lock as version table is missing. reloading..",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Failed to acquire lock",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Folder needs to be reloaded",
+"Description": "Folder is modified by someone else.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "DaVinci Resolve would like access to the %1 folder.",
+"Description": "DaVinci Resolve can only access media from locations listed in the Media Storage tab of Preferences. You can add the folder to Media Storage locations in the file dialog that follows.",
+"Buttons": "Deny",
+"MoreButtons": "Select Folder",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "QUESTION",
+"Title": "The selected folder does not appear to have access to %1.",
+"Description": "Please ensure that you select the folder or the drive where the file is located.",
+"Buttons": "Cancel",
+"MoreButtons": "Select Folder",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you want to delete the still album?",
+"Description": "You can't undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Delete",
+"field6": "QString::null",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_OK",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "tr(p_NodeInfo->m_ErrorInfo.c_str())",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Failed to create Shared Node.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Failed to convert Shared Node to Corrector node.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Resolve is unable to add this node",
+"Description": "You can only append this node to a corrector node",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Color Correction cannot proceed with empty project timeline.\n \nPlease create an conformed timeline with Conform Panel first.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Cannot add more nodes.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Resolve is unable to add this node",
+"Description": "You can only append this node to a corrector or compound node",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Parallel Add Node: selected node has no input data link!",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Select a node first.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "There are no mattes associated with this clip or all mattes associated with this clip have been used.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "It does not work on external matte node with additional channel node!",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Export Frame",
+"Description": "Error encountered when exporting frame.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Export Frame",
+"Description": "Error encountered when saving settings.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Delete Preset",
+"Description": "Delete preset %1?",
+"Buttons": "Cancel",
+"MoreButtons": "Ok"
+},
+{
+"API": "WARNING",
+"Title": "Burn In Preset",
+"Description": "A preset by the name '%1' already exists. Please choose a different name.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Warning",
+"Description": "Default windows cannot be deleted",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Power Windows Preset",
+"Description": "Failed to save the preset.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Power Windows Preset",
+"Description": "A preset by the name '%1' already exists. Please choose a different name.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Power Windows Preset",
+"Description": "Failed to save the preset.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Power Windows Preset",
+"Description": "Failed to delete the preset.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to delete the selected preset?",
+"Description": "You cannot undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Delete",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to update the selected preset with your current settings?",
+"Description": "You cannot undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Update",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "QUESTION",
+"Title": "Delete All ROIs",
+"Description": "Are you sure you want to delete all ROIs?",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Failed to load %1:%2 - %3",
+"Buttons": "lookIt.key()",
+"MoreButtons": "act.ErrMsg())"
+},
+{
+"API": "INFORMATION",
+"Title": "ParsePreconform",
+"Description": "MediaPool is empty.\n \nPlease add clips into MediaPool and start Pre-conform.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Failed to pre-conform timeline.",
+"Description": "The selected bins are empty of media clips.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Export ALE",
+"Description": "Invalid timeline.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Exported to %1",
+"Description": "Exported ALE to %1",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Export ALE",
+"Description": "Failed to export ALE.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Export ALE with CDL",
+"Description": "Invalid timeline.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Exported to %1",
+"Description": "Exported ALE with CDL to %1",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Export ALE with CDL",
+"Description": "Failed to export ALE with CDL.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Timeline Markers to EDL",
+"Description": "Invalid timeline.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Exported to %1",
+"Description": "Timeline Markers to %1",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Timeline Markers to EDL",
+"Description": "Failed to export Timeline Markers to EDL.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Reconform timeline",
+"Description": "There are no offline timeline clips to conform and there are no timeline clips with \"Conform Lock Enabled\" turned off.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Failed to Reconform timeline.",
+"Description": "The source media clips in the selected bins are not able to conform the timeline.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Reconform timeline",
+"Description": "There are no offline timeline clips to conform and there are no timeline clips with \"Conform Lock Enabled\" turned off.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Failed to Reconform timeline.",
+"Description": "The source media clips in the selected Media Storage folders are not able to conform the timeline.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Title",
+"Description": "No current timeline present.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Title",
+"Description": "No current timeline present.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Title",
+"Description": "No current timeline present.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Failed to change start timecode.",
+"Description": "Resolve could not convert '%1' to a valid timecode",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to update the selected column layout preset with your current settings?",
+"Description": "You cannot undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Update",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to delete the selected column layout preset?",
+"Description": "You cannot undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Delete",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "CRITICAL",
+"Title": "Generate 3D LUT",
+"Description": "Track graph has matte nodes. Please remove matte nodes to proceed",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Generate 3D LUT",
+"Description": "Some of the selected clips have matte nodes. Please remove matte nodes to proceed",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Generate 3D LUT",
+"Description": "Some of the selected clips have multiple sources. Please keep 1 source to proceed",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Generate 3D LUT",
+"Description": "Some of the selected clips' group graph have matte nodes. Please remove matte nodes to proceed",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Unsupported characters are present in selected file names",
+"Description": "Please remove following characters | * : ;",
+"Buttons": "",
+"MoreButtons": "Ok"
+},
+{
+"API": "INFORMATION",
+"Title": "Invalid slate timecode",
+"Description": "%1\nPlease fill in all fields of timecode.",
+"Buttons": "Cancel",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Do you want to remove this folder?",
+"Description": "This will remove the folder from the Media Pool",
+"Buttons": "Edit and Color pages.",
+"MoreButtons": "Cancel",
+"field6": "Remove",
+"field7": "QString::null",
+"field8": "BUTTON_CANCEL",
+"field9": "BUTTON_OK",
+"field10": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "Do you want to remove the selected matte?",
+"Description": "This will remove the matte from the Media Pool and will make it unavailable on all pages.",
+"Buttons": "Cancel",
+"MoreButtons": "Remove",
+"field6": "QString::null",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_OK",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "Do you want to remove the selected matte?",
+"Description": "This will remove the matte from the Media Pool and will make it unavailable on all pages.",
+"Buttons": "Cancel",
+"MoreButtons": "Remove",
+"field6": "QString::null",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_OK",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "Resolve is unable to place Multicam, Compound Clips, Fusion Clips and Timelines into Power Bins",
+"Description": "Please unselect these items before adding to Power Bins",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "The selected file does not appear to be a valid proxy for \"%1\".",
+"Description": "Please ensure that the proxy file has a matching frame rate and overlapping timecode to the original file in the Media Pool.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Would you like to perform a comprehensive search of all the folders in the selected location?",
+"Description": "query2ndAttemptStr",
+"Buttons": "Cancel",
+"MoreButtons": "Search",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "The stereo clip/stereo matte clip must be created from 2 standard video clips or 2 matte video clips.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "warningMsg",
+"Description": "Are you sure you want to create a stereo clip with these clips?",
+"Buttons": "Cancel",
+"MoreButtons": "Create",
+"field6": "QString()",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Unable to create stereo clip because the selected clips are incompatible. They have different frame rates.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "title",
+"Description": "VFX Connect file is not yet rendered.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "File metadata mismatch",
+"Description": "Enclosing folder of the file might be different from the one that is getting opened. Do you want to continue?",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "QUESTION",
+"Title": "The clip(s) have a different frame rate than the current project settings.",
+"Description": "Would you like to change your timeline frame rate and video format to match?",
+"Buttons": "Don't change",
+"MoreButtons": "Change",
+"field6": "QString::null",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "WARNING",
+"Title": "Failed to create timeline.",
+"Description": "errorMsg",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Failed to create timeline.",
+"Description": "errorMsg",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Failed to create timeline from composition playlist.",
+"Description": "IOCommon::ErrToStr(static_cast<IOCommon::ErrorNum>(err))",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Failed to extract Dolby Vision Metadata.",
+"Description": "IOCommon::ErrToStr(err)",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Create VFX Connect Clip",
+"Description": "msg",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Create VFX Connect Clip",
+"Description": "msg",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "DaVinci Resolve is unable to launch Blackmagic Fusion.",
+"Description": "Please ensure that Blackmagic Fusion or Blackmagic Fusion Studio is installed on your machine.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Rendering VFX Connect Clip",
+"Description": "Only one composition can be rendered at a time. Please select one composition to be rendered.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Select VFX Connect Version.",
+"Description": "Selected version of VFX Connect Clip is not rendered. Do you wish to open this clip in Fusion?",
+"Buttons": "Yes",
+"MoreButtons": "No"
+},
+{
+"API": "INFORMATION",
+"Title": "No videos selected",
+"Description": "Select one or more videos and stills to start tagging faces",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Warning",
+"Description": "messageString",
+"Buttons": "Cancel",
+"MoreButtons": "Ok"
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "exp.GetMsg()",
+"Buttons": "Yes",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "exp.GetMsg()",
+"Buttons": "Cancel",
+"MoreButtons": "Ok"
+},
+{
+"API": "LIST",
+"Title": "No match was found when attempting to sync these clips",
+"Description": "messageContents",
+"Buttons": "QString()",
+"MoreButtons": "Ok",
+"field6": "BUTTON_NONE",
+"field7": "BUTTON_NONE"},
+{
+"API": "WARNING",
+"Title": "Folder needs to be reloaded",
+"Description": "Folder is modified by someone else.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to delete this Frame.io marker and the comments within them?",
+"Description": "The marker and the comments within it will be deleted both in the project as well as on the clip on Frame.io. This action cannot be undone.",
+"Buttons": "Cancel",
+"MoreButtons": "Delete",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to delete these Frame.io markers and the comments within them?",
+"Description": "The markers and the comments within them will be deleted both in the project as well as on the clip on Frame.io. This action cannot be undone.",
+"Buttons": "Cancel",
+"MoreButtons": "Delete",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "WARNING",
+"Title": "Folder needs to be reloaded",
+"Description": "Folder is modified by someone else.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Select left eye folder.",
+"Buttons": "Cancel",
+"MoreButtons": "Ok"
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Select right eye folder.",
+"Buttons": "Cancel",
+"MoreButtons": "Ok"
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Select output folder.",
+"Buttons": "Cancel",
+"MoreButtons": "Ok"
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you want to connect to the DaVinci Resolve Disk Database at the path \"%1\"?",
+"Description": "Using a DaVinci Resolve Disk Database on an ExFAT partition is not recommended and may lead to project corruption or loss in the event of a software crash or system power outage.",
+"Buttons": "Cancel",
+"MoreButtons": "Connect",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Database name can not be empty.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Host can not be empty.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "New database cannot be created.\n \nDatabase \"%1\" is in use.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Please create an empty folder for the new database.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you want to create a DaVinci Resolve Disk Database at the path \"%1\"?",
+"Description": "Creating a DaVinci Resolve Disk Database on an ExFAT partition is not recommended and may lead to project corruption or loss in the event of a software crash or system power outage.",
+"Buttons": "Cancel",
+"MoreButtons": "Create",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "New database has been created, but initialization failed, please check log file for more details.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Sandbox error",
+"Description": "Cannot create security scoped bookmark.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "New database has been created, but initialization failed, please check log file for more details.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "The selected file does not appear to be a supported file type.",
+"Description": "Please select a valid file type to continue.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Move Error",
+"Description": "Unable to perform move operation as selection contains a loaded project.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Would you like to upgrade the database \"%1\"?",
+"Description": "You cannot undo this action. \nIt is recommended that you backup your existing database before proceeding.",
+"Buttons": "Cancel",
+"MoreButtons": "Upgrade"
+},
+{
+"API": "INFORMATION",
+"Title": "Database \"%1\" has been upgraded successfully.",
+"Description": "QString()",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Failed to upgrade database: \"%1\".",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to optimize the \"%1\" %2? project/ database",
+"Description": "Please note that this operation might take some time. It is recommended that you save backup and/or export the project prior to performing optimize operation. Please note that this operation might take some time. It is recommended that you backup your existing database prior to performing database operations.",
+"Buttons": "Cancel",
+"MoreButtons": "",
+"field6": "BUTTON_OK",
+"field7": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "Information",
+"Description": "%1 %2 has been optimized successfully. Project / Database",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Failed to optimize %1: %2. project/ database",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to backup the \"%1\" database?",
+"Description": "Please note that this operation might take some time depending on the size of your database.",
+"Buttons": "Cancel",
+"MoreButtons": "Backup",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "Database \"%1\" has been backed up successfully.",
+"Description": "QString()",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Failed to back up database: %1.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Database name can not be empty.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Host can not be empty.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "New database cannot be created.\n \nDatabase \"%1\" is in use.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to restore the database from \"%1\" (%2 MB)?",
+"Description": "Please note that this operation might take some time depending on the size of your database.",
+"Buttons": "Cancel",
+"MoreButtons": "Restore",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "WARNING",
+"Title": "Sandbox error",
+"Description": "Cannot create security scoped bookmark.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "New database has been created but initialization failed please check log file for more details.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Database \"%1\" has been restored successfully from \"%2\".",
+"Description": "QString()",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Failed to restore database: %1.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "The username entered is invalid",
+"Description": "Please enter a valid username.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Username already exists",
+"Description": "Please enter a new username.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "msg",
+"Description": "Do you want to re-activate this user?",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "INFORMATION",
+"Title": "Error",
+"Description": "No Database connection found!",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Password Error",
+"Description": "The password you have entered is incorrect.\nPlease try again.",
+"Buttons": "Try again",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Error",
+"Description": "No network connection found.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "You are about to disconnect from the selected database.",
+"Description": "Do you want to disconnect?",
+"Buttons": "Don't disconnect",
+"MoreButtons": "Disconnect",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "WARNING",
+"Title": "Database \"%1\" could not be deleted as it appears to be currently in use.",
+"Description": "Please ensure that no system is currently connected to the database prior to deleting it.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Project %1 already exists.",
+"Description": "Please rename the project before moving to this folder.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Project %1 already exists.",
+"Description": "Please rename the project before moving to this folder.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Delete Project",
+"Description": "The project cannot be deleted as other users are currently working on it.",
+"Buttons": "OK",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Failed to load config to current project.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "DaVinci Resolve failed to import project '%1'.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Title",
+"Description": "The project is locked by someone else and cannot be deleted.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Title",
+"Description": "Folders containing the current project cannot be deleted.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "DaVinci Resolve encountered a critical error. Would you like to export your recent changes to a DRP and reload the project?",
+"Description": "DaVinci Resolve has encountered a critical error and was unable to save your changes to the project. After exporting your  changes the original project will be reloaded without some of your changes. These changes may be recovered from the DRP export. Alternatively you can reload your project without the recent changes.",
+"Buttons": "Reset",
+"MoreButtons": "Save"
+},
+{
+"API": "CRITICAL",
+"Title": "Cut Error",
+"Description": "Unable to perform move operation as selection contains the loaded project.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Collaboration is currently not supported with dynamic project switching.",
+"Description": "Please disable dynamic project switching in order to continue.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Your collaboration session was closed as one or more users are collaborating with a different version of DaVinci Resolve.",
+"Description": "Please ensure that all users are running the same version of DaVinci Resolve when collaborating.",
+"Buttons": "OK",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "The project could not be loaded in collaboration mode as Resolve was unable to establish a connection to communicate with other users.",
+"Description": "Please ensure that the machines are not connected using a VPN and that DaVinci Resolve is not being blocked by the system firewall.",
+"Buttons": "OK",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Title",
+"Description": "The project is locked by someone else and cannot be renamed.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Project name %1 is already used",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Resolve cannot rename this folder as it contains the current project.",
+"Description": "To rename this folder load a project in an alternative folder.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Folder name %1 is already used",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Would you like to replace your current project's settings with the selected project�s settings?",
+"Description": "You cannot undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Load Project Settings",
+"field6": "QString::null",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "QUESTION",
+"Title": "Would you like to replace your current project's settings with the selected project�s settings?",
+"Description": "You cannot undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Load Project Settings",
+"field6": "QString::null",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you want to discard changes and load the last saved version of the project?",
+"Description": "You cannot undo this action.",
+"Buttons": "Cancel",
+"MoreButtons": "Load Project",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "DaVinci Resolve failed to open project '%1'.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "DaVinci Resolve failed to save project <%1> as <%2>.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CreateWarning(m_AutoSavedDlgImp.get()",
+"Title": "Error",
+"Description": "DaVinci Resolve failed to copy project <%1> (Error: %2).",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CreateWarning(m_AutoSavedDlgImp.get()",
+"Title": "Error",
+"Description": "DaVinci Resolve failed to copy project <%1> (Error: %2).",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Render path is not accessible to Resolve.",
+"Description": "Please select a render path from within the media storage.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Render path is not accessible to Resolve.",
+"Description": "Please select a valid render path.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "The render job could not be created as the selected output resolution is larger than the maximum resolution supported by Resolve.",
+"Description": "Please select a supported output resolution in order to continue.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "The render job could not be created as the codec does not support the selected resolution.",
+"Description": "Please select a supported resolution or a different codec in order to continue.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "The render job could not be created as the selected audio track configuration is not valid for MXF Op-Atom files.",
+"Description": "Please select a single multi-channel track or multiple mono tracks in order to continue.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Delete Preset.",
+"Description": "Preset could not be deleted.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Save preset.",
+"Description": "Preset could not be saved.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Create preset.",
+"Description": "Preset could not be created.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Would you like to replace an existing file with the same name?",
+"Description": "A file with the same name already exists. Replacing it will overwrite its current contents.",
+"Buttons": "Cancel",
+"MoreButtons": "Rename",
+"field6": "Replace",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_NO",
+"field9": "BUTTON_YES"
+},
+{
+"API": "INFORMATION",
+"Title": "Invalid Frame.io location selected.",
+"Description": "Please select project folder or user created folder to upload contents.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Unable to edit job",
+"Description": "The project name and/or timeline name for the job no longer exists!",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "You cannot delete a job in a locked project.",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "You cannot delete a job in a locked project.",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "You cannot delete a job in a locked project.",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Database is not connected.",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Cannot submit batch recording request with no track.",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Invalid character in file name.",
+"Description": "File name \"%1\" contains invalid character. Please provide a name without these characters:<br/>%2",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Invalid character in suffix.",
+"Description": "Suffix \"%1\" contains invalid character. Please provide a name without these characters:<br/>%2",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Duplicate render paths detected.",
+"Description": "Please enter a unique sub-folder for additional outputs in the render settings",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "The selected location is not valid as you do not have write permissions.",
+"Description": "Please ensure that the selected render location has write permissions enabled.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "No timeline detected.",
+"Description": "Please ensure that a timeline is created before rendering.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "The selected render job could not be updated as there are no clips in the applied clip filter.",
+"Description": "Please clear or update your clip filter in order to continue.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to add this job to the render queue with media offline clips or frames?",
+"Description": "One or more clips appear to have missing or offline source frames. If you continue these frames will be rendered with a media offline graphic.",
+"Buttons": "Ok",
+"MoreButtons": "Cancel",
+"field6": "Add",
+"field7": "QString()",
+"field8": "BUTTON_CANCEL",
+"field9": "BUTTON_OK",
+"field10": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "DCP job could not be added.",
+"Description": "secondaryErrorString",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "IMF job could not be added.",
+"Description": "secondaryErrorString",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to add to the render queue with the existing color management settings?",
+"Description": "secondaryErrorString",
+"Buttons": "Cancel",
+"MoreButtons": "Add",
+"field6": "QString()",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_OK",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "Would you like to automatically shorten and add the render job so that the frame count is a multiple of 5 as required by the IMF specification?",
+"Description": "The render job will automatically be shortened to have a frame count that is a multiple of 5. Alternatively you can modify the length of the render job and then add it to the render queue.",
+"Buttons": "Cancel",
+"MoreButtons": "Shorten and Add",
+"field6": "",
+"field7": "QString()",
+"field8": "BUTTON_CANCEL",
+"field9": "BUTTON_OK",
+"field10": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "JPEG2000 job could not be added.",
+"Description": "Only 2K and 4K resolutions are allowed for a JPEG2000 render.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Warning",
+"Description": "errMsg",
+"Buttons": "Cancel",
+"MoreButtons": "Add",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_OK",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "Please enter a password in order to add to the render queue",
+"Description": "You have set the visibility of the Vimeo clip to \"People with the password\". Please enter a password or choose another visibility mode to continue.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "You have selected an invalid number of audio tracks for %1 %2 clip. an/ a",
+"Description": "Continuing with the current track selection could result in problems when playing back these clips on some devices and projectors.",
+"Buttons": "Cancel",
+"MoreButtons": "Ok"
+},
+{
+"API": "QUESTION",
+"Title": "The selected job(s) have already been rendered.",
+"Description": "Would you like to re render them?",
+"Buttons": "Don't render",
+"MoreButtons": "Render",
+"field6": "QString::null",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "Metadata import completed successfully",
+"Description": "msgImport",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "No matching Media Pool entries were found",
+"Description": "QString::null",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "No import options selected.",
+"Description": "Would you like to select import options now?",
+"Buttons": "Cancel",
+"MoreButtons": "Select Options",
+"field6": "QString::null",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "WARNING",
+"Title": "The project \"%1\" could not be imported as the selected database is incompatible",
+"Description": "Please upgrade the database or select another database to import project.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNINGptr",
+"Title": "The XML \"%1\" could not be imported as the selected database is incompatible",
+"Description": "Please upgrade the database or select another database to import xml",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "DaVinci Resolve is busy",
+"Description": "please import Db Access Key file \"%1\" later",
+"Buttons": "QString()",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Clone job in progress",
+"Description": "Do you want to quit and terminate the clone job(s)?",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "QUESTION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Clear render cache before exiting?",
+"Buttons": "Cancel",
+"MoreButtons": "Clear",
+"field6": "Keep",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_RESET",
+"field9": "BUTTON_NO"
+},
+{
+"API": "WARNING",
+"Title": "Warning",
+"Description": "Not implemented!",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "There is no keyframe selected.",
+"Description": "Please select a keyframe to delete.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "There is no keyframe selected",
+"Description": "Please select a keyframe to modify.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Cannot add EDL marks on track when in %1 mode. clip/ mix",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Cannot delete EDL marks from track when in %1 mode. clip/ mix",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "There is no keyframe selected",
+"Description": "Please select a keyframe to modify.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "EDL Load failed",
+"Description": "errMsg.length() > 0? errMsg.c_str(): No error information is available.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to update the gallery path?",
+"Description": "This operation will update all references of existing stills to the new location.",
+"Buttons": "Cancel",
+"MoreButtons": "Update",
+
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "QUESTION",
+"Title": "Delete Preset",
+"Description": "Delete preset %1?",
+"Buttons": "Cancel",
+"MoreButtons": "Ok"
+},
+{
+"API": "CreateWarning(GetOwner()",
+"Title": "Warning",
+"Description": "This will delete stills permanently continue?",
+"Buttons": "Yes",
+"MoreButtons": "Cancel",
+"field6": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Failed to delete orphan still: %1",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "CreateWarning(GetOwner()",
+"Title": "Warning",
+"Description": "This will delete stills permanently continue?",
+"Buttons": "Yes",
+"MoreButtons": "Cancel",
+"field6": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Failed to delete orphan still: %1",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Please select some still for export",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Failed to export still: %1",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Failed to load %1:%2 - %3",
+"Buttons": "lookIt->first",
+"MoreButtons": "act.ErrMsg())"
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Failed to load the selected timeline from database. Please check the logs.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Failed to load gallery %1 from database %2",
+"Buttons": "p_DbName)",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Failed to load PowerGrade views for user %1 from database %2",
+"Buttons": "p_DbName)",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "tr((ret & (ScopedGalleryViewLock::GALLERYVIEW_MISSING | ScopedGalleryViewLock::GALLERYVIEW_INVALID)) ? Album not available : (ret == ScopedGalleryViewLock::GALLERYVIEW_LOCKED_BY_REMOTE_SYSTEM) ? Album is locked by another user : Unknown error locking album.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "tr((ret & (ScopedGalleryViewLock::GALLERYVIEW_MISSING | ScopedGalleryViewLock::GALLERYVIEW_INVALID)) ? Album not available : (ret == ScopedGalleryViewLock::GALLERYVIEW_LOCKED_BY_REMOTE_SYSTEM) ? Album is locked by another user : Unknown error locking album.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Cannot open file for reading",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "No audio track found.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Audio bit depth not supported.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Would you like to apply your metadata changes?",
+"Description": "You currently have metadata changes to selected clips that have not yet been applied.",
+"Buttons": "Discard",
+"MoreButtons": "Apply",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "WARNING",
+"Title": "Unable to find media",
+"Description": "DaVinci Resolve cannot find this media: Please check the path or change parent folder if it has moved.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Test File",
+"Description": "Audio file is not supported",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Invalid file-type for scene detection.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Not enough frames for scene detection.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Invalid file-type for changing timecode.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "The selected clips do not contain any audio track.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Cannot delete the storage or site directory!",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Split and Add",
+"Description": "%1 clips potentially added (Total Clips Listed = %2 Total EDL events detected = %3)",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Deletion unsuccessful",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Would you like to rescan the path and add new files to the Sound Library?",
+"Description": "The path %1 already exists in the Database %2.",
+"Buttons": "Yes",
+"MoreButtons": "No",
+"field6": "Yes",
+"field7": "QString::null",
+"field8": "BUTTON_NO",
+"field9": "BUTTON_YES",
+"field10": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "Sound Library Scan Successful",
+"Description": "Added %1 clips out of %2 clips from %3 QString::number(info.m_TotalNumFilesScanned)",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error Adding Path",
+"Description": "Error Message: %1",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Clip name is empty.",
+"Description": "Please enter a valid clip name.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Delete Preset",
+"Description": "Delete preset %1?",
+"Buttons": "Cancel",
+"MoreButtons": "Ok"
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Password and file path cannot be empty.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "The License and Certificates could not be imported.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Password and path can not be empty.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Name and URL can not be empty.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Password doesn't match.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Failed to save the file.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Failed to create request, please check the data.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Please choose a server certificate folder/file.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Please choose an output folder.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Please choose correct validity dates.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "KDM generation failed to locate digest for this package.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "KDM generation failed",
+"Buttons": "please check the data.",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Site Index Mismatch",
+"Description": "Source and destination site indices do not match.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Destination Site Index Mismatch",
+"Description": "All clone destinations must have the same site index.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Incorrect Destination Path",
+"Description": "Source and destination paths cannot be the same.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Site Index Mismatch",
+"Description": "Source and destination site index doesn't match.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Incorrect Source Path",
+"Description": "Source and destination paths cannot be the same.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Export SDL",
+"Description": "Invalid file path!",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to update the PowerGrades path?",
+"Description": "This operation will update all references of existing stills to the new location.",
+"Buttons": "Cancel",
+"MoreButtons": "Update",
+
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "CRITICAL",
+"Title": "Unable to start Resolve Live",
+"Description": "Please create a timeline before enabling Resolve Live",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Unable to start LightSpace Calibration",
+"Description": "Please make sure your timeline is not empty",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Unable to start SpectraCal Calibration",
+"Description": "Please make sure your timeline is not empty",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Failure!",
+"Description": "Failed to create temporary project file!",
+"Buttons": "Abort",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Failure!",
+"Description": "Failed to export project!",
+"Buttons": "Abort",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Failure!",
+"Description": "Failed to create archive!",
+"Buttons": "Abort",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Failure!",
+"Description": "Failed to append project file to archive!",
+"Buttons": "Abort",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Failure!",
+"Description": "Media archive failed",
+"Buttons": "Abort",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Failure!",
+"Description": "Failed to create archive!",
+"Buttons": "Abort",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Failure!",
+"Description": "Failed to create archive!",
+"Buttons": "Abort",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Failure!",
+"Description": "Failed to create archive!",
+"Buttons": "Abort",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Failure!",
+"Description": "Failed to create temporary project file!",
+"Buttons": "Abort",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Media archiving failed",
+"Description": "Failed to archive",
+"Buttons": "Abort",
+"MoreButtons": "Skip",
+"field6": "Locate",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_DISCARD",
+"field9": "BUTTON_UPGRADE"
+},
+{
+"API": "WARNING",
+"Title": "The selected AAF has a sequence with a different frame rate.",
+"Description": "Please select an AAF with a matching frame rate.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "warningMsg",
+"Description": "The dictionary will be reset to defaults. This action cannot be undone.",
+"Buttons": "Cancel",
+"MoreButtons": "Reset",
+"field6": "QString()",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "INFORMATION",
+"Title": "Error!",
+"Description": "No filename given!",
+"Buttons": "Cancel",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Failure!",
+"Description": "Failed to create temporary project file!",
+"Buttons": "Abort",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Failure!",
+"Description": "Failed to export project!",
+"Buttons": "Abort",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Failure!",
+"Description": "Failed to create archive!",
+"Buttons": "Abort",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Failure!",
+"Description": "Failed to append project file to archive!",
+"Buttons": "Abort",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "The clean up of video tracks was completed successfully.",
+"Description": "",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "LIST",
+"Title": "No match was found when attempting to align these clips",
+"Description": "Message",
+"Buttons": "QString()",
+"MoreButtons": "Ok",
+"field6": "BUTTON_NONE",
+"field7": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "Take with unknown media selected",
+"Description": "Would you like to continue with your selection or restore the original take?",
+"Buttons": "My Selection",
+"MoreButtons": "Original Take",
+"field7": "BUTTON_APPLY",
+"field8": "BUTTON_ABORT",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "INFORMATION",
+"Title": "Audio type mismatch",
+"Description": "Takes must have the same audio profile as the original clip.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Take already exists",
+"Description": "The take clip dragged in already exists.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "No video clips found",
+"Description": "Please add video clips.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Compound Clip",
+"Description": "Mono tracks can be created from mono audio clips only.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Do you want to reset the Fusion composition?",
+"Description": "This will reset the Fusion composition for the selected clip",
+"Buttons": "Cancel",
+"MoreButtons": "Reset"
+},
+{
+"API": "QUESTION",
+"Title": "You are about to replace a non-linear speed map",
+"Description": "",
+"Buttons": "Cancel",
+"MoreButtons": "Replace",
+"field6": "QString::null",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_APPLY",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "CRITICAL",
+"Title": "Error",
+"Description": "Failed to load the selected timeline from database. Please check the log for the reason.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Passwords do not match",
+"Description": "Please verify that the passwords are the same.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Change Password",
+"Description": "Passwords do not match!",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "Please choose a clip before starting scene-detection.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Error",
+"Description": "No scenecut information present. Don't know where to split.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "No split could be detected.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "No scenecut information present.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "No scenecut information present.",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Preserve Scenecuts?",
+"Description": "Would you like to preserve the current scene information while loading the EDL?",
+"Buttons": "Cancel",
+"MoreButtons": "Discard",
+"field6": "Preserve",
+"field7": "BUTTON_CANCEL",
+"field8": "BUTTON_NO",
+"field9": "BUTTON_YES"
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "No scenecut information present.\nPlease detect scenecuts first.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "UiGlobal::GetProductName()",
+"Description": "No scenecut information present.\nPlease detect scenecuts first.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Transition Preset",
+"Description": "Transition preset name already exists. Please enter a different name.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to discard your unsaved changes?",
+"Description": "This action will discard your unsaved changes and set this preset to the last saved version.",
+"Buttons": "Cancel",
+"MoreButtons": "Discard",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "WARNING",
+"Title": "The keyboard mapping preset \"%1\" could not be saved successfully.",
+"Description": "QString()",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you want to permanently delete \"%1\"?",
+"Description": "This action will delete this preset and cannot be undone.",
+"Buttons": "Cancel",
+"MoreButtons": "Delete",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "QUESTION",
+"Title": "Are you sure you would like to discard your unsaved changes?",
+"Description": "This action will discard your unsaved changes and set this preset to the last saved version.",
+"Buttons": "Cancel",
+"MoreButtons": "Discard",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE)"
+},
+{
+"API": "QUESTION",
+"Title": "Do you want to delete the selected group?",
+"Description": "This will remove all the clips from the group.",
+"Buttons": "Cancel",
+"MoreButtons": "Delete",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "Do you want to reset the Fusion composition?",
+"Description": "This will reset the Fusion composition for the selected clip",
+"Buttons": "Cancel",
+"MoreButtons": "Reset"
+},
+{
+"API": "QUESTION",
+"Title": "Stereo 3D Batch Copy",
+"Description": "Do you want to copy the grades of all the clips from the current eye to the other eye?",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "QUESTION",
+"Title": "Stereo 3D Batch Node Graph Synchronization",
+"Description": "Do you want to synchronize the grades of all the clips from the current eye to the other eye?\n \nGrades of some of the clips would be copied from the current eye to the other eye.",
+"Buttons": "No",
+"MoreButtons": "Yes"
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Please choose an output folder.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Error",
+"Description": "Please choose an encrypted DCTL output name.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Export CDL",
+"Description": "There are no clips in the timeline.\nPlease add in media clips.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Export CDL",
+"Description": "Failed to save the edl.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "title",
+"Description": "DaVinci Resolve Project Server requires your login credentials to modify your PostgreSQL server configuration.",
+"Buttons": "Cancel",
+"MoreButtons": "Authorize",
+"field6": "QString()",
+"field7": "BUTTON_NO",
+"field8": "BUTTON_YES",
+"field9": "BUTTON_NONE"
+},
+{
+"API": "QUESTION",
+"Title": "Would you like to create a copy of the render cache files that can be used by p_Name + ?",
+"Description": "Copying these files could take several minutes. If these files are not copied render cache would need to be re-generated.",
+"Buttons": "Don't Copy",
+"MoreButtons": "Copy",
+"field6": "",
+"field7": "QString()",
+"field8": "BUTTON_NO",
+"field9": "BUTTON_YES",
+"field10": "BUTTON_NONE"
+},
+{
+"API": "WARNING",
+"Title": "Timeline error",
+"Description": "Timeline to export is empty.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Source AAF error",
+"Description": "Unable to find source AAF file '%1'.\nAAF Exporting fails.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Error",
+"Description": "Can't write to preference directory. Please verify disk usage or permission!",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "INFORMATION",
+"Title": "Error",
+"Description": "%1 does not point to a valid PostgreSQL installation!",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "Warning",
+"Description": "Failed to write to database folder '%1'.\nPlease make sure you have correct permissions.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "CRITICAL",
+"Title": "Dual server configurations are no longer supported",
+"Description": "Please ensure that your system has been re-configured appropriately and then save 'Preferences' in Resolve.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "QUESTION",
+"Title": "Confirm Exit",
+"Description": "Exit now?",
+"Buttons": "Yes",
+"MoreButtons": "No"
+},
+{
+"API": "INFORMATION",
+"Title": "DaVinci Resolve Project Server could not find a PostgreSQL installation on this machine.",
+"Description": "secondaryText",
+"Buttons": "Quit",
+"MoreButtons": "Ok"
+},
+{
+"API": "INFORMATION",
+"Title": "DaVinci Resolve Project Server connection error.",
+"Description": "The PostgreSQL server is either not running or the password is incorrect.",
+"Buttons": "Quit",
+"MoreButtons": "Ok"
+},
+{
+"API": "CRITICAL",
+"Title": "Configuration error",
+"Description": "Unable to find configuration file '%1'.\nThe application will now terminate.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "WARNING",
+"Title": "The NVIDIA SDI configuration is no longer supported.",
+"Description": "Please reconfigure your system using a supported SDI card.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "%s||%s",
+"Description": "Dolby Vision%1 IOCommon::ErrToStr(err)",
+"Buttons": "Ok",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Cannot communicate with %s chassis. Possible reasons include:\n %s chassis is down.\n Resolve process on %s chassis is down.\n Resolve process on %s chassis hangs.\n",
+"Description": "Resolve process on %s chassis is down.\n Resolve process on %s chassis hangs.\n",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "x->GetCharString()",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Video mode selected is currently not supported by the Decklink card",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Video mode selected is currently not supported by the Decklink card",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Video mode selected is currently not supported by the Decklink card",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Please optimize your database in order to avoid losing any work.",
+"Description": "The current DaVinci Resolve PostgreSQL database is reporting errors during save and load operations. Please save your work, backup your database and run optimize in the Project Manager window.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Cannot use film workflow under CORE configuration. Default to normal workflow.",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Invalid resolution detected from saved project",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Invalid resolution detected from saved project",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Invalid resolution detected from saved project",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Invalid resolution detected from saved project",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Failed to initialize decklink card for Resolve Live",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Failed to initialize Red Rocket Card %d",
+"Description": "i",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Failed to delete directory %s",
+"Description": "m_OriginalDir.GetCharString()",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Folder deletion is completed",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Failed to create directory '%s'. Please check the file system.",
+"Description": "p_Path",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Insufficient GPU memory.",
+"Description": "Cintel Raw images need a minimum of 2GB GPU memory. The decode has been switched to quarter resolution.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "DVS card is not supported for I/O - license error",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "DaVinci Resolve is unable to initialize the video I/O device.",
+"Description": "Please quit DaVinci Resolve and install your Blackmagic Design video I/O device/driver",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Failed to set the videomode on the video I/O device.",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Failed to enable video output mode [0x%x] at device %d\n",
+"Description": "p_DisplayMode",
+"Buttons": "i",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "DVS card sv_open has failed for '%s'.",
+"Description": "Please check if the correct DVS driver is loaded.\n",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Unexpected condition: %s.",
+"Description": "Please capture logs and send them to Blackmagic Design support.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Timeout when waiting for frame %d for recording, frame dropped",
+"Description": "m_ExpectedSequentialSyncCount",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Deletion of %s/[%s - %s] is completed",
+"Description": "m_Clip.GetPath().GetCharString()",
+"Buttons": "start",
+"MoreButtons": "end"
+},
+{
+"API": "URGENT",
+"Title": "Encountered error during deletion of %s/[%d - %d]",
+"Description": "m_Clip.GetPath().GetCharString()",
+"Buttons": "start",
+"MoreButtons": "end"
+},
+{
+"API": "URGENT",
+"Title": "License dongle check failed.||Resolve will exit in %d seconds.\n",
+"Description": "LICENSE_CHECK_INTERVAL / 1000",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "License dongle check failed.||Please re-insert dongle within %d seconds to prevent application exit.\n",
+"Description": "LICENSE_CHECK_INTERVAL / 1000",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Failed to initialize BrightClip library for %s on %s chassis: %s\n",
+"Description": "FsInfo->m_Root.GetCharString()",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Error Processing Encrypted DaVinci CTL||%s has expired\n",
+"Description": "fileName.GetCharString()",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "The DCTL %s is missing||Please ensure that the file is located at the path %s\n",
+"Description": "fileName.GetCharString()",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Invalid CC graph received on %s chassis.\nFrame returned without CC.",
+"Description": "g_GetChassisSymbolicName(SITE.GetSiteIdx())",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Your GPU memory is full.||Try reducing the timeline resolution or the number of correctors.",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "The GPU failed to perform image processing because of an error.||Error Code: %d.",
+"Description": "errCode",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Fusion library interface version (%d) does not match the interface version used in Resolve (%d).",
+"Description": "Resolve may not work as expected.",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Received GetFrames() call without a valid task ID.",
+"Description": "",
+"Buttons": "",
+"MoreButtons": ""
+},
+{
+"API": "URGENT",
+"Title": "Fairlight interface version in library (%d) doesn't match with what is used in Resolve (%d).|| It may not work as expected.",
+"Description": "s_FLInterface->GetInterfaceVersion()",
+"Buttons": "",
+"MoreButtons": ""
+}
+]
