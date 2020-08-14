@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/resolve-dialogs/static/js/main.fd218f2b.chunk.js",
-    "main.js.map": "/resolve-dialogs/static/js/main.fd218f2b.chunk.js.map",
+    "main.js": "/resolve-dialogs/static/js/main.7d76f605.chunk.js",
+    "main.js.map": "/resolve-dialogs/static/js/main.7d76f605.chunk.js.map",
     "runtime-main.js": "/resolve-dialogs/static/js/runtime-main.273747ec.js",
     "runtime-main.js.map": "/resolve-dialogs/static/js/runtime-main.273747ec.js.map",
-    "static/js/2.2ab60c58.chunk.js": "/resolve-dialogs/static/js/2.2ab60c58.chunk.js",
-    "static/js/2.2ab60c58.chunk.js.map": "/resolve-dialogs/static/js/2.2ab60c58.chunk.js.map",
+    "static/js/2.499d32d5.chunk.js": "/resolve-dialogs/static/js/2.499d32d5.chunk.js",
+    "static/js/2.499d32d5.chunk.js.map": "/resolve-dialogs/static/js/2.499d32d5.chunk.js.map",
     "index.html": "/resolve-dialogs/index.html",
-    "precache-manifest.bd730ea2c6886a9c70f4414b9befabe9.js": "/resolve-dialogs/precache-manifest.bd730ea2c6886a9c70f4414b9befabe9.js",
+    "precache-manifest.9ffcd241d8bb169612e32208a298dcf2.js": "/resolve-dialogs/precache-manifest.9ffcd241d8bb169612e32208a298dcf2.js",
     "service-worker.js": "/resolve-dialogs/service-worker.js",
-    "static/js/2.2ab60c58.chunk.js.LICENSE.txt": "/resolve-dialogs/static/js/2.2ab60c58.chunk.js.LICENSE.txt",
+    "static/js/2.499d32d5.chunk.js.LICENSE.txt": "/resolve-dialogs/static/js/2.499d32d5.chunk.js.LICENSE.txt",
     "static/media/opensans-200.ttf": "/resolve-dialogs/static/media/opensans-200.1bf71be1.ttf",
     "static/media/opensans-300.ttf": "/resolve-dialogs/static/media/opensans-300.629a55a7.ttf",
     "static/media/opensans-400.ttf": "/resolve-dialogs/static/media/opensans-400.33f225b8.ttf",
@@ -17,7 +17,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.273747ec.js",
-    "static/js/2.2ab60c58.chunk.js",
-    "static/js/main.fd218f2b.chunk.js"
+    "static/js/2.499d32d5.chunk.js",
+    "static/js/main.7d76f605.chunk.js"
   ]
 }

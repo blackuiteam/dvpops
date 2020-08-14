@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4da718fb967c46e86517648e18dafc12",
+    "revision": "407e399dca2ebf43619eae6c69ac5697",
     "url": "/resolve-dialogs/index.html"
   },
   {
-    "revision": "637a9c8f29dd1e274684",
-    "url": "/resolve-dialogs/static/js/2.2ab60c58.chunk.js"
+    "revision": "c7c2dec669aa8bee4450",
+    "url": "/resolve-dialogs/static/js/2.499d32d5.chunk.js"
   },
   {
     "revision": "0472107b6f246c1e2ca64f14170aecd1",
-    "url": "/resolve-dialogs/static/js/2.2ab60c58.chunk.js.LICENSE.txt"
+    "url": "/resolve-dialogs/static/js/2.499d32d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ecd044cc5b897d269ec3",
-    "url": "/resolve-dialogs/static/js/main.fd218f2b.chunk.js"
+    "revision": "81999798e909e2249af0",
+    "url": "/resolve-dialogs/static/js/main.7d76f605.chunk.js"
   },
   {
     "revision": "1b798894f5303a7a9d5f",
