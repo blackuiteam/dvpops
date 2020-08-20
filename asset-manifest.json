@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/resolve-dialogs/static/js/main.7d76f605.chunk.js",
-    "main.js.map": "/resolve-dialogs/static/js/main.7d76f605.chunk.js.map",
-    "runtime-main.js": "/resolve-dialogs/static/js/runtime-main.273747ec.js",
-    "runtime-main.js.map": "/resolve-dialogs/static/js/runtime-main.273747ec.js.map",
-    "static/js/2.499d32d5.chunk.js": "/resolve-dialogs/static/js/2.499d32d5.chunk.js",
-    "static/js/2.499d32d5.chunk.js.map": "/resolve-dialogs/static/js/2.499d32d5.chunk.js.map",
-    "index.html": "/resolve-dialogs/index.html",
-    "precache-manifest.9ffcd241d8bb169612e32208a298dcf2.js": "/resolve-dialogs/precache-manifest.9ffcd241d8bb169612e32208a298dcf2.js",
-    "service-worker.js": "/resolve-dialogs/service-worker.js",
-    "static/js/2.499d32d5.chunk.js.LICENSE.txt": "/resolve-dialogs/static/js/2.499d32d5.chunk.js.LICENSE.txt",
-    "static/media/opensans-200.ttf": "/resolve-dialogs/static/media/opensans-200.1bf71be1.ttf",
-    "static/media/opensans-300.ttf": "/resolve-dialogs/static/media/opensans-300.629a55a7.ttf",
-    "static/media/opensans-400.ttf": "/resolve-dialogs/static/media/opensans-400.33f225b8.ttf",
-    "static/media/opensans-600.ttf": "/resolve-dialogs/static/media/opensans-600.50145685.ttf"
+    "main.js": "/dvpops/static/js/main.40f35d81.chunk.js",
+    "main.js.map": "/dvpops/static/js/main.40f35d81.chunk.js.map",
+    "runtime-main.js": "/dvpops/static/js/runtime-main.7e6dd5ce.js",
+    "runtime-main.js.map": "/dvpops/static/js/runtime-main.7e6dd5ce.js.map",
+    "static/js/2.e75257ad.chunk.js": "/dvpops/static/js/2.e75257ad.chunk.js",
+    "static/js/2.e75257ad.chunk.js.map": "/dvpops/static/js/2.e75257ad.chunk.js.map",
+    "index.html": "/dvpops/index.html",
+    "precache-manifest.3bb80b18dee7990210185878a9b51844.js": "/dvpops/precache-manifest.3bb80b18dee7990210185878a9b51844.js",
+    "service-worker.js": "/dvpops/service-worker.js",
+    "static/js/2.e75257ad.chunk.js.LICENSE.txt": "/dvpops/static/js/2.e75257ad.chunk.js.LICENSE.txt",
+    "static/media/opensans-200.ttf": "/dvpops/static/media/opensans-200.1bf71be1.ttf",
+    "static/media/opensans-300.ttf": "/dvpops/static/media/opensans-300.629a55a7.ttf",
+    "static/media/opensans-400.ttf": "/dvpops/static/media/opensans-400.33f225b8.ttf",
+    "static/media/opensans-600.ttf": "/dvpops/static/media/opensans-600.50145685.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.273747ec.js",
-    "static/js/2.499d32d5.chunk.js",
-    "static/js/main.7d76f605.chunk.js"
+    "static/js/runtime-main.7e6dd5ce.js",
+    "static/js/2.e75257ad.chunk.js",
+    "static/js/main.40f35d81.chunk.js"
   ]
 }
